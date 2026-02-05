@@ -1,0 +1,24 @@
+{
+  "name": "@reactive-cache/debugger",
+  "version": "0.0.2",
+  "description": "debugger for reactive-cache",
+  "license": "ISC",
+  "author": "https://github.com/Jor-ban",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npx tsc"
+  },
+  "dependencies": {
+    "@reactive-cache/core": "^2.6.0",
+    "rxjs": "^7.8.1",
+    "tweakpane": "^4.0.5",
+    "tweakpane-json-plugin": "^0.5.4",
+    "tweakpane-object-editor-plugin": "^0.2.0"
+  },
+  "devDependencies": {
+    "@tweakpane/core": "^2.0.5",
+    "typescript": "^5.7.3"
+  }
+}
