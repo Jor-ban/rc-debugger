@@ -1,6 +1,6 @@
 {
   "name": "@reactive-cache/debugger",
-  "version": "0.0.2",
+  "version": "1.2.0",
   "description": "debugger for reactive-cache",
   "license": "ISC",
   "author": "https://github.com/Jor-ban",
@@ -11,14 +11,18 @@
     "prepare": "npx tsc"
   },
   "dependencies": {
-    "@reactive-cache/core": "^2.6.0",
+    "@reactive-cache/core": "^3.2.0",
     "rxjs": "^7.8.1",
-    "tweakpane": "^4.0.5",
-    "tweakpane-json-plugin": "^0.5.4",
-    "tweakpane-object-editor-plugin": "^0.2.0"
+    "tweakpane": "4.0.5",
+    "tweakpane-json-plugin": "0.5.4",
+    "tweakpane-object-editor-plugin": "0.2.0"
+  },
+  "homepage": "https://github.com/Jor-ban/rc-debugger",
+  "bugs": {
+    "url": "https://github.com/Jor-ban/rc-debugger"
   },
   "devDependencies": {
-    "@tweakpane/core": "^2.0.5",
+    "@tweakpane/core": "2.0.5",
     "typescript": "^5.7.3"
   }
 }

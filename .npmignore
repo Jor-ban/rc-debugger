@@ -1,0 +1,8 @@
+tsconfig.json
+node_modules
+src
+.idea
+.gitattributes
+.gitignore
+package-lock.json
+dist/index.js.map
